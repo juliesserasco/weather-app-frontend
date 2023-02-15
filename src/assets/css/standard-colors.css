@@ -1,0 +1,87 @@
+/*Color of the themed buttons*/
+.btn-color-new{
+    background-color: #5E44FF!important;
+    text-transform: capitalize !important;
+    color:white!important;
+}
+.btn-color-new:hover{
+    background-color: white!important;
+    color:#5E44FF!important;
+}
+
+/*Line height of the text fields when disabled*/
+.form-group .form-control[disabled]{
+    line-height: 1.7 !important;
+}
+/*Colors of command buttons like add,edit,delete and etc.*/
+.command-btn{
+    background-image: linear-gradient(#FEFEFE, #E1E1E1) !important;
+    border: 3px solid #DEDEDE !important;
+    color : #111 !important;
+    transition: 0.3s;
+    font-family: 'Inter-Bold' !important;
+    text-transform: capitalize !important;
+}
+
+.command-btn:hover{
+    background-image: linear-gradient(#DEDEDE, #C6C6C6) !important;
+    color : #111 !important;
+}
+
+
+/*Table header background color*/
+.bg-header{
+    background-color: #0B0724 !important;
+}
+
+/*data grid hovers and selected*/
+.select_row:hover{
+    background-color:  #9587ee;
+    cursor: pointer;
+}
+.selected_row{
+    background-color:  #9587ee;
+}
+/*Back ground color of the top nav and sidenav*/
+.rs-bg {
+    background-color: #0B0724 !important;
+    background-size: cover !important;
+}
+
+/*font size of the nav menus*/
+.nav-menu-font{
+    font-size: 14px !important;
+}
+
+/*yes button of the dialog boxes*/
+.yes-btn{
+    background-image: linear-gradient(#FEFEFE, #E1E1E1) !important;
+    border: 3px solid #DEDEDE !important;
+    color : #111 !important;
+    transition: 0.3s;
+    font-family: 'Inter-Bold' !important;
+    text-transform: capitalize !important;
+}
+
+.yes-btn:hover{
+    background-image: linear-gradient(#DEDEDE, #C6C6C6) !important;
+    color : #111 !important;
+}
+/*No button of the dialog boxes*/
+.no-btn{
+    background-image: linear-gradient(#D1D1D1, #E1E1E1) !important;
+    border: 3px solid #D1D1D1 !important;
+    color : #111 !important;
+    transition: 0.3s;
+    font-family: 'Inter-Bold' !important;
+    text-transform: capitalize !important;
+}
+
+.no-btn:hover{
+    background-image: linear-gradient(#C2C2C2, #C8C8C8) !important;
+    color : #111 !important;
+}
+
+.alert-message-modal{
+    color: #212529 !important;
+}

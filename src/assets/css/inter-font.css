@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/Inter-VariableFont_slnt,wght.ttf');
+    src: url('../fonts/Inter/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-Light';
+    src: url('../fonts/Inter/static/Inter-Light.ttf');
+    src: url('../fonts/Inter/static/Inter-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-Medium';
+    src: url('../fonts/Inter/static/Inter-Medium.ttf');
+    src: url('../fonts/Inter/static/Inter-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('../fonts/Inter/static/Inter-Regular.ttf');
+    src: url('../fonts/Inter/static/Inter-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('../fonts/Inter/static/Inter-Bold.ttf');
+    src: url('../fonts/Inter/static/Inter-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: Inter !important;
+    color: rgb(26, 26, 26)!important;
+}
+
+thead {
+    font-family: Inter-Bold !important;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+    color: rgb(29, 29, 29) !important;
+}
+
+.table-striped {
+    color: rgb(29, 29, 29) !important;
+}
+
+.content-header {
+    font-family: Inter-Bold !important;
+}
+
+.nav-pills {
+    font-family: 'Inter-Light' !important;
+}
+
+h3 {
+    color: #212529 !important;
+    font-family: 'Inter-Bold' !important;
+    margin-bottom: 0px !important;
+}
