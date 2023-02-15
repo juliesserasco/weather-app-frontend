@@ -6,4 +6,4 @@ npm install --force
 
 npm run dev
 
-Clone the server side of the app in this link: https://github.com/juliesse/weather-app-server
+Clone the server side of the app in this link: https://github.com/juliesse/weather-app-backend
